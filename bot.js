@@ -10,12 +10,7 @@ admin.initializeApp({
   databaseURL: 'https://discord-leveling-system.firebaseio.com'
 });
 var config = {
-    apiKey: "AIzaSyAn5P_3Z67ZWNGYc3h7y6ZRY-45l3iG0CU",
-    authDomain: "discord-leveling-system.firebaseapp.com",
-    databaseURL: "https://discord-leveling-system.firebaseio.com",
-    projectId: "discord-leveling-system",
-    storageBucket: "discord-leveling-system.appspot.com",
-    messagingSenderId: "383122305937"
+    enter your own config
 }
 firebase.initializeApp(config);
 var database = firebase.database();
